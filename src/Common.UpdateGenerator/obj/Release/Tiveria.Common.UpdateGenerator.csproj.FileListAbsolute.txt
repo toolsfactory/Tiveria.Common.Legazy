@@ -1,0 +1,3 @@
+D:\SVN Projects\Tiveria.Common\src\Common.UpdateGenerator\obj\Release\Tiveria.Common.UpdateGenerator.csprojResolveAssemblyReference.cache
+D:\SVN Projects\Tiveria.Common\src\Common.UpdateGenerator\obj\Release\Tiveria.Common.UpdateGenerator.Properties.Resources.resources
+D:\SVN Projects\Tiveria.Common\src\Common.UpdateGenerator\obj\Release\Tiveria.Common.UpdateGenerator.csproj.GenerateResource.Cache

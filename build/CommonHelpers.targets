@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<!-- Initially load additional Build Tasks -->
+	<!-- <UsingTask AssemblyFile="Tiveria.MSBuildTasks.dll" TaskName="Tiveria.MSBuildTasks.TemplateFile" /> -->
+	
+	<!-- Core Revision definitions -->
+	<PropertyGroup>
+		<Major>1</Major>
+		<Minor>1</Minor>
+		<Build>0</Build>
+		<Revision>0</Revision>
+		<BuildId>unknown</BuildId>
+		<BuildTag>local</BuildTag>
+	</PropertyGroup>
+	
+	<!-- Update Revision definitions if on build system -->
+	<PropertyGroup Condition="$(BUILDSYSTEM)=='TRUE'">
+		<Build>$(BUILD_NUMBER)</Build>
+		<Revision>$(SVN_REVISION)</Revision>
+		<BuildId>$(BUILD_ID)</BuildId>
+		<BuildTag>$(BUILD_TAG)</BuildTag>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<Version>$(Major).$(Minor).$(Build).$(Revision)</Version>
+		<ReferencePath>$(SolutionDir)lib\</ReferencePath>
+	</PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+	
+</Project>

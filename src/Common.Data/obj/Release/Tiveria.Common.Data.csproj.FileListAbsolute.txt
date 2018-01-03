@@ -1,0 +1,10 @@
+D:\SVN Projects\Tiveria.Common\src\Common.Data\bin\Release\Tiveria.Common.Data.dll.config
+D:\SVN Projects\Tiveria.Common\src\Common.Data\bin\Release\Tiveria.Common.Data.dll
+D:\SVN Projects\Tiveria.Common\src\Common.Data\bin\Release\Tiveria.Common.Data.pdb
+D:\SVN Projects\Tiveria.Common\src\Common.Data\bin\Release\EntityFramework.dll
+D:\SVN Projects\Tiveria.Common\src\Common.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\SVN Projects\Tiveria.Common\src\Common.Data\bin\Release\EntityFramework.xml
+D:\SVN Projects\Tiveria.Common\src\Common.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\SVN Projects\Tiveria.Common\src\Common.Data\obj\Release\Tiveria.Common.Data.csprojResolveAssemblyReference.cache
+D:\SVN Projects\Tiveria.Common\src\Common.Data\obj\Release\Tiveria.Common.Data.dll
+D:\SVN Projects\Tiveria.Common\src\Common.Data\obj\Release\Tiveria.Common.Data.pdb

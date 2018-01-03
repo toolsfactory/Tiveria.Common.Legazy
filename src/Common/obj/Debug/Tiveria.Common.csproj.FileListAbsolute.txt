@@ -1,0 +1,8 @@
+C:\Users\Michael\SVN Projects\Tiveria.Common\src\Common\bin\Debug\Tiveria.Common.dll.config
+C:\Users\Michael\SVN Projects\Tiveria.Common\src\Common\bin\Debug\Tiveria.Common.dll
+C:\Users\Michael\SVN Projects\Tiveria.Common\src\Common\bin\Debug\Tiveria.Common.pdb
+C:\Users\Michael\SVN Projects\Tiveria.Common\src\Common\obj\Debug\Tiveria.Common.csprojResolveAssemblyReference.cache
+C:\Users\Michael\SVN Projects\Tiveria.Common\src\Common\obj\Debug\Tiveria.Common.Properties.Ensure.resources
+C:\Users\Michael\SVN Projects\Tiveria.Common\src\Common\obj\Debug\Tiveria.Common.csproj.GenerateResource.Cache
+C:\Users\Michael\SVN Projects\Tiveria.Common\src\Common\obj\Debug\Tiveria.Common.dll
+C:\Users\Michael\SVN Projects\Tiveria.Common\src\Common\obj\Debug\Tiveria.Common.pdb

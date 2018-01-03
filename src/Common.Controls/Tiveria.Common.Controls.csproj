@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90FAFC0D-30AA-4FC3-98DD-A35CE012610E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tiveria.Common.Controls</RootNamespace>
+    <AssemblyName>Tiveria.Common.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Annotations\AdornerHitType.cs" />
+    <Compile Include="Annotations\Adorners\RectangleAdorner.cs" />
+    <Compile Include="Annotations\AnnotationPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Annotations\IAdorner.cs" />
+    <Compile Include="Annotations\IDocument.cs" />
+    <Compile Include="Annotations\IShape.cs" />
+    <Compile Include="Annotations\IOperations.cs" />
+    <Compile Include="Annotations\OperationsManager.cs" />
+    <Compile Include="Annotations\ShapeCollection.cs" />
+    <Compile Include="Annotations\Shapes\Shape.cs" />
+    <Compile Include="Annotations\Shapes\Rectangle.cs" />
+    <Compile Include="Annotations\Tools\PointerTool.cs" />
+    <Compile Include="HitPosition.cs" />
+    <Compile Include="FormSaveAndRestore.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormSaveAndRestore.Designer.cs">
+      <DependentUpon>FormSaveAndRestore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageMap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MultiSelectRegionMap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransparentLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup />
+  <!-- Import elements identical to all Tiveria.Common projects -->
+  <Import Project="$(ProjectDir)..\..\build\CommonHelpers.targets" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,6 @@
+D:\SVN Projects\Tiveria.Common\src\Common.Logging.Log4Net\bin\Release\Tiveria.Common.Logging.Log4Net.dll
+D:\SVN Projects\Tiveria.Common\src\Common.Logging.Log4Net\bin\Release\log4net.dll
+D:\SVN Projects\Tiveria.Common\src\Common.Logging.Log4Net\bin\Release\Tiveria.Common.dll
+D:\SVN Projects\Tiveria.Common\src\Common.Logging.Log4Net\bin\Release\log4net.xml
+D:\SVN Projects\Tiveria.Common\src\Common.Logging.Log4Net\obj\Release\Tiveria.Common.Logging.Log4Net.csprojResolveAssemblyReference.cache
+D:\SVN Projects\Tiveria.Common\src\Common.Logging.Log4Net\obj\Release\Tiveria.Common.Logging.Log4Net.dll

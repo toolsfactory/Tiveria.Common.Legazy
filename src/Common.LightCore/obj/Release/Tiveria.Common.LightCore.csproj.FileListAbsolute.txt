@@ -1,0 +1,13 @@
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\Tiveria.Common.LightCore.dll
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\Tiveria.Common.LightCore.pdb
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\LightCore.CommonServiceLocator.dll
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\LightCore.Configuration.dll
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\LightCore.dll
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\Tiveria.Common.dll
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\LightCore.xml
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\LightCore.CommonServiceLocator.xml
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\bin\Release\LightCore.Configuration.xml
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\obj\Release\Tiveria.Common.LightCore.csprojResolveAssemblyReference.cache
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\obj\Release\Tiveria.Common.LightCore.dll
+D:\SVN Projects\Tiveria.Common\src\Common.LightCore\obj\Release\Tiveria.Common.LightCore.pdb

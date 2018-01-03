@@ -1,0 +1,5 @@
+D:\SVN Projects\Tiveria.Common\src\MSBuildTasks\bin\Release\Tiveria.MSBuildTasks.dll
+D:\SVN Projects\Tiveria.Common\src\MSBuildTasks\bin\Release\Tiveria.MSBuildTasks.pdb
+D:\SVN Projects\Tiveria.Common\src\MSBuildTasks\obj\Release\Tiveria.MSBuildTasks.csprojResolveAssemblyReference.cache
+D:\SVN Projects\Tiveria.Common\src\MSBuildTasks\obj\Release\Tiveria.MSBuildTasks.dll
+D:\SVN Projects\Tiveria.Common\src\MSBuildTasks\obj\Release\Tiveria.MSBuildTasks.pdb
